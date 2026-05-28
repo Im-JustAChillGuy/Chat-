@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "com.example.chatplus.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["ChatHudMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

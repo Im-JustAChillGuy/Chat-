@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "chatplus",
+  "version": "${version}",
+  "name": "Chat+",
+  "description": "Adds timestamps and duplicate message stacking to chat.",
+  "authors": ["YourName"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.chatplus.ChatPlusMod"]
+  },
+  "mixins": ["chatplus.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16",
+    "fabric-api": "*",
+    "minecraft": "26.1.2"
+  }
+}
